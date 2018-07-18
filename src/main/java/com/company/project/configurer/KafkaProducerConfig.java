@@ -28,6 +28,10 @@ public class KafkaProducerConfig {
         return kafkaTemplate;
     }
 
+    /**
+     * 测试注释
+     * @return
+     */
     public ProducerFactory<String, String> producerFactory() {
 
         // set the producer properties
